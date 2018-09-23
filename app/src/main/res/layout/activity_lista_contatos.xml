@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:padding="8dp"
+    tools:context=".ContatosList">
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/cadastrar_button"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="Cadastrar Contatos"
+        android:onClick="navegarCadastro"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Button"/>
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/product_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="40dp"
+        android:background="#eee"
+        android:paddingBottom="8dp"
+        android:elevation="6dp"
+        app:contentInsetStart="0dp"
+        android:visibility="visible">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </android.support.v4.widget.NestedScrollView>
+    <TextView
+        android:id="@+id/no_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:elevation="8dp"
+        android:text="Não há Contatos Cadastrados!"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        android:textColor="#000"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@mipmap/ic_launcher"
+        android:layout_gravity="top"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="16dp"
+        android:text="Contatos"
+        style="@style/TextAppearance.MaterialComponents.Headline5"
+        android:textColor="#fff"/>
+
+
+
+</FrameLayout>

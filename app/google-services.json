@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "974254455223",
+    "firebase_url": "https://contatos-6e675.firebaseio.com",
+    "project_id": "contatos-6e675",
+    "storage_bucket": "contatos-6e675.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974254455223:android:b3a2eb598855dce2",
+        "android_client_info": {
+          "package_name": "cleitonsantos.infnet.com.br.contacts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974254455223-bpf6lh77hfar37qbh57m6svat835nebb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cleitonsantos.infnet.com.br.contacts",
+            "certificate_hash": "f4ba180ce2316a757b207be3594d431b0a10bae3"
+          }
+        },
+        {
+          "client_id": "974254455223-fkk95rvsktubn600ognh90ah77vg0bqu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxIeaidwBYvSaVnoTgvZua_nLqfItPTMk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974254455223-fkk95rvsktubn600ognh90ah77vg0bqu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
