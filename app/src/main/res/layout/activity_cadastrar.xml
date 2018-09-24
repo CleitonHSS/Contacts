@@ -134,6 +134,19 @@
                 android:maxLines="1" />
         </android.support.design.widget.TextInputLayout>
 
+        <android.support.design.button.MaterialButton
+            android:id="@+id/limpar_button"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_gravity="right"
+            android:text="Limpar"
+            android:textColor="@color/colorAccent"
+            android:onClick="Limpar"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Button"/>
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">

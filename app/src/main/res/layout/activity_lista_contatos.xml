@@ -49,7 +49,8 @@
         android:layout_gravity="center"
         android:textAlignment="center"
         android:elevation="8dp"
-        android:text="Não há Contatos Cadastrados!"
+        android:visibility="invisible"
+        android:text="Não há Contato Cadastrado!"
         style="@style/TextAppearance.MaterialComponents.Headline4"
         android:textColor="#000"/>
     <ImageView

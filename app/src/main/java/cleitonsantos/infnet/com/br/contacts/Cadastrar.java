@@ -56,12 +56,24 @@ public class Cadastrar extends AppCompatActivity {
             databaseReference = databaseReference.push();
             databaseReference.setValue(contato);
 
-            clearForm(nomeField, emailField, senhaField,telefoneField,celularField,cpfField,cidadeField);
+            clearForm( nomeField, emailField, senhaField,telefoneField,celularField,cpfField,cidadeField);
 
             Toast.makeText(this, "Contato salvo com sucesso!",
                     Toast.LENGTH_LONG).show();
         }
 
+    }
+
+    public void Limpar(View view){
+        TextInputEditText nomeField = findViewById(R.id.nome_edit_text);
+        TextInputEditText emailField = findViewById(R.id.email_edit_text);
+        TextInputEditText senhaField = findViewById(R.id.senha_edit_text);
+        TextInputEditText telefoneField = findViewById(R.id.telefone_edit_text);
+        TextInputEditText celularField = findViewById(R.id.celular_edit_text);
+        TextInputEditText cpfField = findViewById(R.id.cpf_edit_text);
+        TextInputEditText cidadeField = findViewById(R.id.cidade_edit_text);
+
+        clearForm( nomeField, emailField, senhaField,telefoneField,celularField,cpfField,cidadeField);
     }
 
     private void clearForm(TextInputEditText a, TextInputEditText b, TextInputEditText c, TextInputEditText d, TextInputEditText e, TextInputEditText f,TextInputEditText g) {

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/Widget.MaterialComponents.CardView"
     android:id="@+id/contact_card"
     android:layout_width="match_parent"
@@ -9,14 +10,24 @@
     android:layout_marginRight="@dimen/mtrl_card_spacing"
     android:padding="16dp"
     android:minHeight="40dp">
-
-    <TextView
-        android:id="@+id/nome"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="nome"
-        android:layout_margin="8dp"
-        android:textAppearance="?attr/textAppearanceHeadline6" />
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:srcCompat="@drawable/ic_account_box_black_24dp"/>
+        <TextView
+            android:id="@+id/nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nome"
+            android:layout_margin="8dp"
+            android:textAppearance="?attr/textAppearanceHeadline6" />
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/l_view"
