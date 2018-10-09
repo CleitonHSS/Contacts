@@ -4,6 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <permission android:name="cleitonsantos.infnet.com.br.contacts.PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -19,8 +20,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <provider
+            android:name=".ContactsContentProvider"
+            android:authorities="cleitonsantos.infnet.com.br.contacts.provider"
+            android:exported="true">
+        </provider>
         <activity android:name=".Cadastrar" />
         <activity android:name=".ContatosList"></activity>
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="[ADMOB_APP_ID]"/>
     </application>
 
 </manifest>

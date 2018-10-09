@@ -33,10 +33,7 @@ public class ContatosAdapter extends RecyclerView.Adapter<ContatosAdapter.Contat
             holder.nome.setText(contato.getNome());
             holder.email.setText(contato.getEmail());
             holder.senha.setText(contato.getSenha());
-            holder.telefone.setText(contato.getTelefone());
-            holder.celular.setText(contato.getCelular());
             holder.cpf.setText(contato.getCpf());
-            holder.cidade.setText(contato.getCidade());
         }
     }
 
@@ -50,10 +47,8 @@ public class ContatosAdapter extends RecyclerView.Adapter<ContatosAdapter.Contat
         public TextView nome;
         public TextView email;
         public TextView senha;
-        public TextView telefone;
-        public TextView celular;
         public TextView cpf;
-        public TextView cidade;
+
 
 
         ContatosListHolder(@NonNull View itemView) {
@@ -61,10 +56,7 @@ public class ContatosAdapter extends RecyclerView.Adapter<ContatosAdapter.Contat
             nome = itemView.findViewById(R.id.nome);
             email = itemView.findViewById(R.id.email);
             senha = itemView.findViewById(R.id.senha);
-            telefone = itemView.findViewById(R.id.telefone);
-            celular = itemView.findViewById(R.id.celular);
             cpf = itemView.findViewById(R.id.cpf);
-            cidade = itemView.findViewById(R.id.cidade);
 
 
             itemView.setOnClickListener(new View.OnClickListener() {

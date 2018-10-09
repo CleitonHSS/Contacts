@@ -83,42 +83,6 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Telefone: "
-                android:textAppearance="?attr/textAppearanceSubtitle1" />
-
-            <TextView
-                android:id="@+id/telefone"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="telefone"
-                android:textAppearance="?attr/textAppearanceSubtitle1" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Celular: "
-                android:textAppearance="?attr/textAppearanceSubtitle1" />
-
-            <TextView
-                android:id="@+id/celular"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="celular"
-                android:textAppearance="?attr/textAppearanceSubtitle1" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="CPF: "
                 android:textAppearance="?attr/textAppearanceSubtitle1" />
 
@@ -127,24 +91,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="cpf"
-                android:textAppearance="?attr/textAppearanceSubtitle1" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Cidade: "
-                android:textAppearance="?attr/textAppearanceSubtitle1" />
-
-            <TextView
-                android:id="@+id/cidade"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="cidade"
                 android:textAppearance="?attr/textAppearanceSubtitle1" />
         </LinearLayout>
     </LinearLayout>
